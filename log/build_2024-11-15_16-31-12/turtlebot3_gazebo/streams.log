@@ -1,0 +1,23 @@
+[0.044s] Invoking command in '/home/parallels/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/turtlebot3_teleop:/home/parallels/ros2_ws/install/turtlebot3_example:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/parallels/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parallels/ros2_ws/install/turtlebot3_gazebo
+[0.059s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.398s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.443s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[0.443s]   By not providing "Findgazebo.cmake" in CMAKE_MODULE_PATH this project has
+[0.443s]   asked CMake to find a package configuration file provided by "gazebo", but
+[0.443s]   CMake did not find one.
+[0.443s] 
+[0.443s]   Could not find a package configuration file provided by "gazebo" with any
+[0.443s]   of the following names:
+[0.443s] 
+[0.443s]     gazeboConfig.cmake
+[0.443s]     gazebo-config.cmake
+[0.443s] 
+[0.443s]   Add the installation prefix of "gazebo" to CMAKE_PREFIX_PATH or set
+[0.443s]   "gazebo_DIR" to a directory containing one of the above files.  If "gazebo"
+[0.443s]   provides a separate development package or SDK, be sure it has been
+[0.443s]   installed.
+[0.444s] 
+[0.444s] [0m
+[0.444s] -- Configuring incomplete, errors occurred!
+[0.444s] See also "/home/parallels/ros2_ws/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[0.464s] Invoked command in '/home/parallels/ros2_ws/build/turtlebot3_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/turtlebot3_teleop:/home/parallels/ros2_ws/install/turtlebot3_example:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/parallels/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parallels/ros2_ws/install/turtlebot3_gazebo

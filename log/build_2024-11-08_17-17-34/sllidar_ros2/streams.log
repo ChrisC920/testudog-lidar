@@ -1,0 +1,72 @@
+[0.283s] Invoking command in '/home/parallels/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/parallels/ros2_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parallels/ros2_ws/install/sllidar_ros2
+[0.317s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.674s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.696s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.795s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.798s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.818s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.848s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.874s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.927s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.929s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.959s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.042s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.081s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.191s] -- Configuring done
+[1.222s] -- Generating done
+[1.226s] -- Build files have been written to: /home/parallels/ros2_ws/build/sllidar_ros2
+[1.259s] Invoked command in '/home/parallels/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/parallels/ros2_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parallels/ros2_ws/install/sllidar_ros2
+[1.260s] Invoking command in '/home/parallels/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/sllidar_ros2 -- -j6 -l6
+[1.528s] [35m[1mConsolidate compiler generated dependencies of target sllidar_client[0m
+[1.552s] [35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
+[1.584s] [ 10%] Built target sllidar_client
+[1.620s] [100%] Built target sllidar_node
+[1.660s] Invoked command in '/home/parallels/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/sllidar_ros2 -- -j6 -l6
+[1.781s] Invoking command in '/home/parallels/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/sllidar_ros2
+[1.793s] -- Install configuration: ""
+[1.794s] -- Execute custom install script
+[1.795s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[1.797s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[1.798s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[1.798s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[1.798s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[1.799s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[1.799s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[1.799s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[1.799s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[1.799s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[1.800s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[1.800s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[1.800s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[1.801s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[1.801s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[1.801s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[1.802s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[1.803s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[1.804s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[1.804s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[1.804s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[1.804s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[1.804s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[1.804s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[1.804s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[1.804s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[1.805s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[1.805s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[1.805s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[1.805s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[1.805s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[1.805s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[1.805s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[1.805s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[1.805s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[1.805s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[1.805s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[1.805s] -- Symlinking: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[1.822s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[1.824s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.824s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.824s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[1.824s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[1.825s] -- Up-to-date symlink: /home/parallels/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[1.831s] Invoked command in '/home/parallels/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/sllidar_ros2

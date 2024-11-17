@@ -1,0 +1,41 @@
+[0.031s] Invoking command in '/home/parallels/ros2_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/turtlebot3_teleop:/home/parallels/ros2_ws/install/turtlebot3_example:/home/parallels/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/parallels/ros2_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parallels/ros2_ws/install/turtlebot3_msgs
+[0.368s] -- The C compiler identification is GNU 11.4.0
+[0.700s] -- The CXX compiler identification is GNU 11.4.0
+[0.716s] -- Detecting C compiler ABI info
+[0.857s] -- Detecting C compiler ABI info - done
+[0.869s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.869s] -- Detecting C compile features
+[0.869s] -- Detecting C compile features - done
+[0.879s] -- Detecting CXX compiler ABI info
+[1.112s] -- Detecting CXX compiler ABI info - done
+[1.130s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.131s] -- Detecting CXX compile features
+[1.132s] -- Detecting CXX compile features - done
+[1.167s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.889s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.999s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.166s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.178s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.234s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.329s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.464s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.483s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[3.826s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.834s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.841s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.848s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.306s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.524s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.548s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.551s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.581s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.581s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.581s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.581s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.607s] -- Found PythonExtra: .so  
+[4.702s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[4.707s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[4.724s] -- Configuring done
+[4.769s] -- Generating done
+[4.773s] -- Build files have been written to: /home/parallels/ros2_ws/build/turtlebot3_msgs

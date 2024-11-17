@@ -1,0 +1,19 @@
+[2.762s] Invoking command in '/home/parallels/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/parallels/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/parallels/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[3.620s] running develop
+[4.213s] running egg_info
+[4.216s] writing my_robot_controller.egg-info/PKG-INFO
+[4.221s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[4.229s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[4.232s] writing requirements to my_robot_controller.egg-info/requires.txt
+[4.238s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[4.243s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[4.246s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[4.250s] running build_ext
+[4.251s] Creating /home/parallels/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[4.254s] Installing lidar_publisher script to /home/parallels/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[4.256s] Installing subscriber script to /home/parallels/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[4.258s] Installing test_node script to /home/parallels/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[4.260s] 
+[4.261s] Installed /home/parallels/ros2_ws/build/my_robot_controller
+[4.262s] running symlink_data
+[4.392s] Invoked command in '/home/parallels/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/parallels/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/parallels/ros2_ws/build/my_robot_controller/build --no-deps symlink_data

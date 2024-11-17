@@ -1,0 +1,6 @@
+[console_scripts]
+cart_tester = my_robot_controller.cart_tester:main
+lidar_publisher = my_robot_controller.test_publisher:main
+subscriber = my_robot_controller.test:main
+test_node = my_robot_controller.my_first_node:main
+

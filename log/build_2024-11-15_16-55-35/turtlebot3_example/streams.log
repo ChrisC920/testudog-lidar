@@ -1,0 +1,20 @@
+[1.220s] Invoking command in '/home/parallels/ros2_ws/build/turtlebot3_example': PYTHONPATH=/home/parallels/ros2_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/parallels/ros2_ws/build/turtlebot3_example/build --no-deps symlink_data
+[2.463s] running develop
+[3.033s] running egg_info
+[3.034s] writing turtlebot3_example.egg-info/PKG-INFO
+[3.034s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[3.034s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[3.034s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[3.034s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[3.039s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[3.045s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[3.049s] running build_ext
+[3.049s] Creating /home/parallels/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[3.050s] Installing turtlebot3_obstacle_detection script to /home/parallels/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.050s] Installing turtlebot3_patrol_client script to /home/parallels/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.052s] Installing turtlebot3_patrol_server script to /home/parallels/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.053s] Installing turtlebot3_position_control script to /home/parallels/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[3.053s] 
+[3.053s] Installed /home/parallels/ros2_ws/build/turtlebot3_example
+[3.054s] running symlink_data
+[3.137s] Invoked command in '/home/parallels/ros2_ws/build/turtlebot3_example' returned '0': PYTHONPATH=/home/parallels/ros2_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/parallels/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/parallels/ros2_ws/build/turtlebot3_example/build --no-deps symlink_data
